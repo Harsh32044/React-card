@@ -33,7 +33,7 @@ p {
     margin-bottom: 0;
 }
 
-.info-container > a {
+.info-site {
     display: block;
     text-decoration: none;
     color:beige;
@@ -63,13 +63,23 @@ p {
     
 }
 
+.emailBtn {
+    background-color: white;
+    color: black;
+}
+
 .linkedinBtn:hover {
     transition: all 0.8s;
     background-color: #5BC0F8;
 }
 
 .emailBtn:hover {
+    transition: all 0.8s;
     background-color: #9D9D9D;
+}
+
+.linkedIn, .email {
+    display: inline;
 }
 
 /* About */
