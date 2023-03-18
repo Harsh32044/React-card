@@ -1,19 +1,20 @@
 body {
     font-family: 'Poppins', sans-serif;
-    
+    display: flex;
+    align-items: center;
     color: white;
     background-color: #635985;
 }
 
 main {
-    box-shadow: 5px 5px 5px 1px #282D35;
-    
+    box-shadow: 10px 5px 5px 1px #282D35;
+    border-radius: 5px;
+    max-width: 300px;
+    background-color: #393053;
 }
 
 #root {
-    background-color: #393053;
-    width: 300px;
-    border-radius: 2%;
+    
     margin: 0 auto;
 }
 
@@ -25,8 +26,6 @@ p {
 /* #282c34; footer */
 
 .info-container {
-    width: 300px;
-    height: 470px;
     text-align: center;
 }
 
@@ -89,8 +88,7 @@ p {
 /* About */
 
 .about-div {
-    max-width: 300px;
-    margin: auto 8%;
+    margin: 2% 8%;
     padding-bottom: 4%;
 }
 
@@ -105,20 +103,12 @@ p {
 
 /* interests */
 
-.interests-div > h4 {
-    margin-bottom: 0;
-}
-
-.interests-div > p {
-    margin-top: 1%;
-}
-
 /* Footer */
 
 .footer-div {
     background-color: #18122B;
     text-align: center;
-    overflow: hidden;
+    border-radius:0 0 5px 5px;
 }
 
 .fa-footer {
