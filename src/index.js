@@ -11,10 +11,12 @@ import Footer from './components/Footer.js';
 const App = () => {
     return (
         <React.StrictMode>
+        <main>
         <Info/>
         <About/>
         <Interests/>
         <Footer/>
+        </main>
         </React.StrictMode>
     )
 }
